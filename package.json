@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -20,5 +20,11 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "axios": "^1.13.2",
+  
+    "tailwindcss": "^4.1.17"
+  }
 }

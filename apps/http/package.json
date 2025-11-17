@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+    "scripts": {
+    "build": "tsc -b",
+    "dev": "node dist/index.js"
+
+   },
+  "dependencies": {
+    "@types/express": "^5.0.5",
+    "@imran":"23.00",
+    "express": "^5.1.0"
+  }
+}
